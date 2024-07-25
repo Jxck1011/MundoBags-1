@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MundoBags - Tienda Virtual</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>MundoBags</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Tienda</a></li>
+                    <li><a href="#">Personalización</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Bienvenido a MundoBags</h2>
+                <p>Descubre nuestra colección de bolsos personalizables</p>
+            </div>
+        </section>
+
+        <section class="customization">
+            <div class="container">
+                <h2>Personaliza tu Bolso</h2>
+                <form id="customization-form">
+                    <div class="form-group">
+                        <label for="color">Elige un color:</label>
+                        <select id="color" name="color">
+                            <option value="azul">Azul</option>
+                            <option value="verde">Verde</option>
+                            <option value="rojo">Rojo</option>
+                            <option value="morado">Morado</option>
+                            <option value="negro">Negro</option>
+                            <option value="amarillo">Amarillo</option>
+                            <option value="beige">Beige</option>
+                            <option value="blanco">Blanco</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="tipo">Elige el tipo de bolso:</label>
+                        <select id="tipo" name="tipo">
+                            <option value="3_sierres">3 cierres</option>
+                            <option value="2_sierres">2 cierres</option>
+                            <option value="con_puerto">Con puerto para computador</option>
+                            <option value="sin_puerto">Sin puerto para computador</option>
+                        </select>
+                    </div>
+                    <button type="submit">Personalizar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MundoBags. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
